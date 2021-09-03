@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SYPlayHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q1u-92-Fvg">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="228"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="228" id="m3v-6s-nLV"/>
+                    </constraints>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XND-5y-Jl3">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="228"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="228" id="Uus-NY-GtM"/>
+                    </constraints>
+                    <state key="normal" image="play_big"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NG5-Wt-dFy">
+                    <rect key="frame" x="0.0" y="228" width="414" height="92"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="宠物猫该从何养起该从何养该从何养起该从何养起起？" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzC-3r-DCj">
+                            <rect key="frame" x="15" y="13" width="291" height="43"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="播放量：152,154" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbq-dq-3r2">
+                            <rect key="frame" x="15" y="66" width="97" height="14.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC9-Kh-pis">
+                            <rect key="frame" x="369" y="20" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Tml-C6-p5x"/>
+                                <constraint firstAttribute="width" constant="30" id="cIk-ic-ASD"/>
+                            </constraints>
+                            <state key="normal" image="like_off"/>
+                            <state key="selected" image="like_on"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="RzC-3r-DCj" firstAttribute="leading" secondItem="NG5-Wt-dFy" secondAttribute="leading" constant="15" id="0Tb-CO-ciH"/>
+                        <constraint firstItem="XC9-Kh-pis" firstAttribute="top" secondItem="NG5-Wt-dFy" secondAttribute="top" constant="20" id="DGr-Us-Yn3"/>
+                        <constraint firstAttribute="trailing" secondItem="RzC-3r-DCj" secondAttribute="trailing" constant="108" id="Mc8-BM-pVv"/>
+                        <constraint firstItem="wbq-dq-3r2" firstAttribute="top" secondItem="RzC-3r-DCj" secondAttribute="bottom" constant="10" id="PTK-Ta-dUJ"/>
+                        <constraint firstItem="wbq-dq-3r2" firstAttribute="leading" secondItem="RzC-3r-DCj" secondAttribute="leading" id="bDD-kC-UhP"/>
+                        <constraint firstAttribute="trailing" secondItem="XC9-Kh-pis" secondAttribute="trailing" constant="15" id="ku5-uX-9ed"/>
+                        <constraint firstAttribute="height" constant="92" id="p4t-af-lVJ"/>
+                        <constraint firstItem="RzC-3r-DCj" firstAttribute="top" secondItem="NG5-Wt-dFy" secondAttribute="top" constant="13" id="wmA-qg-7lB"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c3f-ek-gC2">
+                    <rect key="frame" x="0.0" y="321" width="414" height="54"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="相关推荐" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIb-Mr-8LP">
+                            <rect key="frame" x="15" y="27" width="57.5" height="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="Cnw-kE-rAe"/>
+                        <constraint firstItem="RIb-Mr-8LP" firstAttribute="leading" secondItem="c3f-ek-gC2" secondAttribute="leading" constant="15" id="oZE-bT-dCf"/>
+                        <constraint firstAttribute="bottom" secondItem="RIb-Mr-8LP" secondAttribute="bottom" constant="10" id="pFR-Py-vLt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Q1u-92-Fvg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="373-Mx-eS7"/>
+                <constraint firstItem="XND-5y-Jl3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3q4-vi-vxf"/>
+                <constraint firstItem="XND-5y-Jl3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8hL-I1-fny"/>
+                <constraint firstAttribute="bottom" secondItem="c3f-ek-gC2" secondAttribute="bottom" id="eO3-1x-oBl"/>
+                <constraint firstItem="NG5-Wt-dFy" firstAttribute="top" secondItem="Q1u-92-Fvg" secondAttribute="bottom" id="hdv-75-fH3"/>
+                <constraint firstAttribute="trailing" secondItem="c3f-ek-gC2" secondAttribute="trailing" id="iyl-R9-Vj7"/>
+                <constraint firstItem="Q1u-92-Fvg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jdr-jC-t4P"/>
+                <constraint firstAttribute="trailing" secondItem="XND-5y-Jl3" secondAttribute="trailing" id="tsC-sf-aR5"/>
+                <constraint firstItem="c3f-ek-gC2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="u66-Yl-Z7l"/>
+                <constraint firstAttribute="trailing" secondItem="Q1u-92-Fvg" secondAttribute="trailing" id="yIE-oT-Ejs"/>
+                <constraint firstAttribute="trailing" secondItem="NG5-Wt-dFy" secondAttribute="trailing" id="ynJ-59-U3p"/>
+                <constraint firstItem="NG5-Wt-dFy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zOE-LY-h2Y"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="classImageView" destination="Q1u-92-Fvg" id="RtY-0D-wMZ"/>
+                <outlet property="classTitleLB" destination="RzC-3r-DCj" id="qd3-0F-yHU"/>
+                <outlet property="followBtn" destination="XC9-Kh-pis" id="x41-Xx-R6y"/>
+                <outlet property="playBtn" destination="XND-5y-Jl3" id="MUf-3v-Te5"/>
+                <outlet property="playCountLB" destination="wbq-dq-3r2" id="lPu-qO-H6q"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="-28.459821428571427"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="like_off" width="30" height="30"/>
+        <image name="like_on" width="24" height="24"/>
+        <image name="play_big" width="50" height="50"/>
+    </resources>
+</document>

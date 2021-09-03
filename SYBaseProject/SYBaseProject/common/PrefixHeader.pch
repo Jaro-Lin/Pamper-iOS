@@ -1,0 +1,56 @@
+//
+//  PrefixHeader.pch
+//  magicShop
+//
+//  Created by apple on 2019/10/31.
+//  Copyright © 2019 YYB. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define ProductSever      0 /*********正式服务器*********/
+#define DevelopSever      1 /*********测试服务器*********/
+
+#if ProductSever
+#define  requestServerURL  @"http://47.115.46.39/api.php"
+
+#elif DevelopSever
+#define  requestServerURL  @"http://47.115.46.39/api.php"
+
+#endif
+
+#define KUserLogin  @"UserLogin"
+#define kUserModel  @"UserModel"  //保存user信息到钥匙串
+#define kUserInfoModel  @"UserInfoModel"  //保存userInfo信息到钥匙串
+
+#import "Header.h"
+#import "SafeObject.h"
+#import "CommonEnum.h"
+#import "thirdHeader.h"
+#import "ShareRequest.h"
+#import "SYUserManager.h"
+#import "timeFormatter.h"
+#import "MSUserInformation.h"
+#import "PPBadgeView.h"
+#import "NSString+Common.h"
+
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "UIBarButtonItem+Extension.h"
+#import "zhPopupController.h"
+
+#import <Masonry.h>
+#import <Toast/Toast.h>
+#import <YYKit/YYKit.h>
+
+#import <ReactiveObjC.h>
+
+#import <MBProgressHUD.h>
+#import <SVProgressHUD.h>
+
+#import <SDWebImage.h>
+#import "UIView+Extension.h"
+
+
+#endif /* PrefixHeader_pch */

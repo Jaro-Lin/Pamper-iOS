@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="SYAllPetTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="SYAllPetTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGq-4G-lkd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bd3-hf-b9J">
+                                <rect key="frame" x="70" y="18" width="52" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXs-Mf-RTl">
+                                <rect key="frame" x="350" y="8" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="HT6-lQ-k0t"/>
+                                    <constraint firstAttribute="height" constant="44" id="gFV-am-dPE"/>
+                                </constraints>
+                                <state key="normal" image="编辑"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cathead" translatesAutoresizingMaskIntoConstraints="NO" id="sn7-4b-akT">
+                                <rect key="frame" x="20" y="15" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7Nt-Vq-iO6"/>
+                                    <constraint firstAttribute="width" constant="30" id="Nu3-hL-yDA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sn7-4b-akT" firstAttribute="centerY" secondItem="cGq-4G-lkd" secondAttribute="centerY" id="4T9-X6-HLM"/>
+                            <constraint firstAttribute="trailing" secondItem="xXs-Mf-RTl" secondAttribute="trailing" constant="20" id="EMV-Dp-nKM"/>
+                            <constraint firstItem="Bd3-hf-b9J" firstAttribute="leading" secondItem="sn7-4b-akT" secondAttribute="trailing" constant="20" id="KJR-M1-XaX"/>
+                            <constraint firstItem="Bd3-hf-b9J" firstAttribute="centerY" secondItem="cGq-4G-lkd" secondAttribute="centerY" id="Kk5-lP-EqM"/>
+                            <constraint firstItem="xXs-Mf-RTl" firstAttribute="centerY" secondItem="cGq-4G-lkd" secondAttribute="centerY" id="noy-fB-t5v"/>
+                            <constraint firstItem="sn7-4b-akT" firstAttribute="leading" secondItem="cGq-4G-lkd" secondAttribute="leading" constant="20" id="tbl-ml-Ixf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cGq-4G-lkd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="E4y-zC-zG9"/>
+                    <constraint firstItem="cGq-4G-lkd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FQO-4l-Vci"/>
+                    <constraint firstAttribute="bottom" secondItem="cGq-4G-lkd" secondAttribute="bottom" id="KAb-VE-hbg"/>
+                    <constraint firstAttribute="trailing" secondItem="cGq-4G-lkd" secondAttribute="trailing" id="Tcf-Cn-Wsj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="editeBtn" destination="xXs-Mf-RTl" id="rf3-6V-Zfr"/>
+                <outlet property="petTypeImageView" destination="sn7-4b-akT" id="WoX-6t-zT9"/>
+                <outlet property="peterName" destination="Bd3-hf-b9J" id="fAX-53-4T4"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cathead" width="30" height="30"/>
+        <image name="编辑" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYJuBaoViewController">
+            <connections>
+                <outlet property="commitReportBtn" destination="Pum-ql-iYC" id="npx-YV-Xsd"/>
+                <outlet property="jubaoTypeLB" destination="egW-gT-PX2" id="iyw-5Q-cX5"/>
+                <outlet property="jubaoView" destination="hXx-mr-rhc" id="1v5-z0-Lsq"/>
+                <outlet property="jubaoViewHeight" destination="Hdf-nQ-HKd" id="Rqn-dC-iNk"/>
+                <outlet property="userName" destination="7Zx-Sh-YLg" id="AHH-6h-BCq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="27B-Vh-MSy">
+                    <rect key="frame" x="0.0" y="10" width="414" height="47"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="举报用户" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0l-o9-oej">
+                            <rect key="frame" x="10" y="15" width="58" height="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="的动态" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egW-gT-PX2">
+                            <rect key="frame" x="180" y="15" width="43" height="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" ListenToRadio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Zx-Sh-YLg">
+                            <rect key="frame" x="73" y="15" width="101" height="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.62745098040000002" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="B0l-o9-oej" firstAttribute="centerY" secondItem="27B-Vh-MSy" secondAttribute="centerY" id="1jM-bR-VZP"/>
+                        <constraint firstItem="7Zx-Sh-YLg" firstAttribute="centerY" secondItem="27B-Vh-MSy" secondAttribute="centerY" id="8Fm-O3-uy6"/>
+                        <constraint firstAttribute="height" constant="47" id="9O5-rE-AwU"/>
+                        <constraint firstItem="egW-gT-PX2" firstAttribute="centerY" secondItem="27B-Vh-MSy" secondAttribute="centerY" id="FqH-7a-ADj"/>
+                        <constraint firstItem="7Zx-Sh-YLg" firstAttribute="leading" secondItem="B0l-o9-oej" secondAttribute="trailing" constant="5" id="W7f-Vf-BAL"/>
+                        <constraint firstItem="egW-gT-PX2" firstAttribute="leading" secondItem="7Zx-Sh-YLg" secondAttribute="trailing" constant="6" id="lPi-VQ-b2X"/>
+                        <constraint firstItem="B0l-o9-oej" firstAttribute="leading" secondItem="27B-Vh-MSy" secondAttribute="leading" constant="10" id="omu-pK-Y5E"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXx-mr-rhc">
+                    <rect key="frame" x="0.0" y="62" width="414" height="168"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择该动态违规类型" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhs-y4-o0m">
+                            <rect key="frame" x="10" y="10" width="143" height="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="168" id="Hdf-nQ-HKd"/>
+                        <constraint firstItem="vhs-y4-o0m" firstAttribute="leading" secondItem="hXx-mr-rhc" secondAttribute="leading" constant="10" id="Ife-cm-dff"/>
+                        <constraint firstItem="vhs-y4-o0m" firstAttribute="top" secondItem="hXx-mr-rhc" secondAttribute="top" constant="10" id="nnO-k6-fyC"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pum-ql-iYC">
+                    <rect key="frame" x="107" y="280" width="200" height="48"/>
+                    <color key="backgroundColor" red="0.13725490200000001" green="0.62745098040000002" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="DMc-Hs-tMs"/>
+                        <constraint firstAttribute="height" constant="48" id="ayw-tr-Bcu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="提交举报"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Pum-ql-iYC" firstAttribute="top" secondItem="hXx-mr-rhc" secondAttribute="bottom" constant="50" id="0Oi-ta-kfj"/>
+                <constraint firstItem="27B-Vh-MSy" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="1zh-Mh-Szr"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="hXx-mr-rhc" secondAttribute="trailing" id="5Wc-bX-fRc"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="27B-Vh-MSy" secondAttribute="trailing" id="64d-Cm-igH"/>
+                <constraint firstItem="hXx-mr-rhc" firstAttribute="top" secondItem="27B-Vh-MSy" secondAttribute="bottom" constant="5" id="eaD-6H-SN6"/>
+                <constraint firstItem="hXx-mr-rhc" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="h3n-Jf-qWy"/>
+                <constraint firstItem="27B-Vh-MSy" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="10" id="kSb-JO-fQj"/>
+                <constraint firstItem="Pum-ql-iYC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="p5o-t0-lF8"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="137.68115942028987" y="110.49107142857143"/>
+        </view>
+    </objects>
+</document>

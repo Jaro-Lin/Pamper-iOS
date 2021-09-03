@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "35FFD5D6-0F44-4D1F-83BD-FCCE03DBDB13"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "D74D02D4-0B65-4A2A-8F6B-F0F75EC2FC0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AE47C3F-3B83-4CD6-8003-0108CDD950D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SYBaseProject/class/HomePage/Controller/SYHomePageViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-signInAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB715F23-018B-4A4A-A76A-A397890ED5BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SYBaseProject/class/Store/Model/SYPayAction.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-payAction:withOrderId:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB715F23-018B-4A4A-A76A-A397890ED5BB - cd702ed494db7fb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SYPayAction payAction:withOrderId:payCallback:]"
+                  moduleName = "&#x5ba0;&#x5ba0;pamper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sy/Desktop/wb/%E5%AE%A0%E7%89%A9/SYBaseProject/SYBaseProject/class/Store/Model/SYPayAction.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "AB715F23-018B-4A4A-A76A-A397890ED5BB - 3a6a2c0b3708989"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[SYPayAction payAction:withOrderId:payCallback:]_block_invoke"
+                  moduleName = "&#x5ba0;&#x5ba0;pamper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sy/Desktop/wb/%E5%AE%A0%E7%89%A9/SYBaseProject/SYBaseProject/class/Store/Model/SYPayAction.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

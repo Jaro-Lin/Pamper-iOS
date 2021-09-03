@@ -1,0 +1,133 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AlipaySDK-iOS (15.7.4)
+  - Bugly (2.5.5)
+  - CYLTabBarController (1.29.0):
+    - CYLTabBarController/Core (= 1.29.0)
+  - CYLTabBarController/Core (1.29.0)
+  - FSCalendar (2.8.1)
+  - IQKeyboardManager (6.5.5)
+  - JXCategoryView (1.5.5)
+  - JXPagingView/Pager (2.0.6)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.2.1)
+  - MJRefresh (3.4.3)
+  - ReactiveObjC (3.1.1)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SVProgressHUD (2.2.5)
+  - Toast (4.0.0)
+  - TZImagePickerController (3.3.1)
+  - UMCAnalytics (6.1.0):
+    - UMCCommon
+  - UMCCommon (2.1.4)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZFPlayer/AVPlayer (3.3.3):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.3.3):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.3.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AlipaySDK-iOS
+  - Bugly
+  - CYLTabBarController
+  - FSCalendar
+  - IQKeyboardManager
+  - JXCategoryView
+  - JXPagingView/Pager
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - ReactiveObjC
+  - SDCycleScrollView
+  - SDWebImage
+  - SVProgressHUD
+  - Toast
+  - TZImagePickerController
+  - UMCAnalytics
+  - UMCCommon
+  - VTMagic
+  - YYKit
+  - ZFPlayer/AVPlayer
+  - ZFPlayer/ControlView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs:
+    - AFNetworking
+    - AlipaySDK-iOS
+    - Bugly
+    - CYLTabBarController
+    - FSCalendar
+    - IQKeyboardManager
+    - JXCategoryView
+    - JXPagingView
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+    - Toast
+    - TZImagePickerController
+    - UMCAnalytics
+    - UMCCommon
+    - VTMagic
+    - YYKit
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
+  Bugly: eded937bbb1f731cacf689c2d934ddbd9ab34f83
+  CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JXCategoryView: 0293fcb356f10a5c2e679dac0a1a5f1899ee0c87
+  JXPagingView: 5851fb8cc964d0cbd93e9611077f7bc1fca05fee
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
+  UMCAnalytics: 3503f179f7af932b30af9ac161ac11fb48fa72b6
+  UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZFPlayer: 1310252c253b9958e4fcd411e706b99c31834eaf
+
+PODFILE CHECKSUM: fc8fa36bd86031a329d4e83184143138587a4a24
+
+COCOAPODS: 1.11.0

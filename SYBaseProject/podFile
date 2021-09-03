@@ -1,0 +1,48 @@
+
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SYBaseProject' do
+
+pod 'AFNetworking'
+pod 'VTMagic'
+pod 'Masonry','~>1.0.1'
+pod 'SDCycleScrollView'
+pod 'IQKeyboardManager'
+
+pod 'MBProgressHUD'
+pod 'SVProgressHUD'
+pod 'MJExtension'
+pod 'MJRefresh'
+
+pod 'SDWebImage'
+pod 'ReactiveObjC'
+pod 'Toast'
+pod 'ZFPlayer/AVPlayer'
+pod 'ZFPlayer/ControlView'
+
+pod 'YYKit'
+
+#图片选择
+pod 'TZImagePickerController'
+
+pod 'AlipaySDK-iOS'
+
+#高德地图
+#pod 'AMap3DMap' #3D地图SDK
+#pod 'AMapSearch' #搜索功能
+
+#自定义中间按钮
+pod 'CYLTabBarController'
+pod 'FSCalendar'
+
+pod 'JXPagingView/Pager'
+pod 'JXCategoryView'
+
+pod 'Bugly'
+pod 'UMCCommon'
+pod 'UMCAnalytics'
+
+end
+
